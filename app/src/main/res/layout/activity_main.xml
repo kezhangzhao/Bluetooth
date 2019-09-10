@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/bt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_bt_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btClient"
+        android:text="@string/bt_client"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bt" />
+
+    <Button
+        android:id="@+id/btn_bt_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btServer"
+        android:text="@string/bt_server"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bt_client" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_marginTop="64dp"
+        android:background="#000"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bt_server" />
+
+    <TextView
+        android:id="@+id/tv_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ble"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/line2" />
+
+    <Button
+        android:id="@+id/btn_ble_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bleClient"
+        android:text="@string/ble_client"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ble" />
+
+    <Button
+        android:id="@+id/btn_ble_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bleServer"
+        android:text="@string/ble_server"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ble_client" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
