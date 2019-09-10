@@ -12,5 +12,5 @@
 	        implementation 'com.github.kezhangzhao:Bluetooth:1.0.0'
 	}
 
- # 下载demo看吧，有备注。
- # 以前参考别人代码写的，自己封装一下方便自己使用。
+  下载demo看吧，有备注。
+  以前参考别人代码写的，自己封装一下方便自己使用。
