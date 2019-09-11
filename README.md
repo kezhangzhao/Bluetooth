@@ -9,7 +9,7 @@
 	}
   
 	dependencies {
-	        implementation 'com.github.kezhangzhao:Bluetooth:1.0.0'
+	        implementation 'com.github.kezhangzhao:Bluetooth:1.1.0'
 	}
 
   下载代码看吧，有备注。
